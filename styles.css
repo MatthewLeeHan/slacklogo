@@ -10,6 +10,7 @@ body{
 	display: inline-block;
 	position: absolute;
 	opacity: 0.9;
+	mix-blend-mode: multiply;
 }
 .everything{
 
@@ -17,7 +18,7 @@ body{
 
 
 .greenBar{
-	background: #3CB187;
+	background-color:#3CB187;
 	transform: rotate(-13deg);
 	z-index: -1;
 	left: 400px;
@@ -25,21 +26,21 @@ body{
 
 }
 .yellowBar{
-	background: #DFA22F;
+	background-color: #DFA22F;
 	transform: rotate(-13deg);
 	z-index: -1;
 	left: 600px;
 	top:10px;
 }
 .redBar{
-	background: #CE1E5B;
+	background-color:#CE1E5B;
 	position: relative;
 	transform: rotate(74deg);
 	left: 520px;
 	top: 130px;
 }
 .blueBar{
-	background: #72C5CD;
+	background-color: #72C5CD;
 	transform: rotate(74deg);
 	left: 480px;
 	bottom: 250px;
