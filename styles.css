@@ -4,24 +4,43 @@ body{
 }
 .bar{
 	width: 90px;
-	height: 400px;
+	height: 500px;
 	margin-top: 100px;
 	border-radius: 180px;
 	display: inline-block;
+	position: absolute;
+	opacity: 0.9;
 }
+.everything{
 
+}
 
 
 .greenBar{
 	background: #3CB187;
 	transform: rotate(-13deg);
-	margin-left: 40%;
-	margin-top: 140px;
+	z-index: -1;
+	left: 400px;
+	top: 60px;
 
 }
 .yellowBar{
 	background: #DFA22F;
 	transform: rotate(-13deg);
-	margin-left: 100px;
-	position: fixed;
+	z-index: -1;
+	left: 600px;
+	top:10px;
+}
+.redBar{
+	background: #CE1E5B;
+	position: relative;
+	transform: rotate(74deg);
+	left: 520px;
+	top: 130px;
+}
+.blueBar{
+	background: #72C5CD;
+	transform: rotate(74deg);
+	left: 480px;
+	bottom: 250px;
 }
